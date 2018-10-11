@@ -242,7 +242,7 @@
         loggedInID: null,
         scriptLink: "https://raw.githubusercontent.com/socketchecker/basicBot-v2/master/basicBot-test.js",
         cmdLink: "https://git.io/vofmh",
-        chatLink: "https://rawgit.com/javascripto/basicBot-v2/master/lang/ltu.json",
+        chatLink: "https://raw.githubusercontent.com/socketchecker/basicBot-v2/master/lang/ltu.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -251,7 +251,7 @@
             botName: "basicBot-v2",
             language: "lithuanian",
             chatLink: "https://raw.githubusercontent.com/socketchecker/basicBot-v2/master/lang/ltu.json",
-            scriptLink: "https://rawgit.com/javascripto/basicBot-v2/master/basicBot-test.js",
+            scriptLink: "https://raw.githubusercontent.com/socketchecker/basicBot-v2/master/basicBot-test.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 20, // 0-100
