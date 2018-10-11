@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/javascripto/basicBot-v2/master/lang/langIndex.json", function (json) {
+        $.get("https://raw.githubusercontent.com/socketchecker/basicBot-v2/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -238,9 +238,9 @@
     var basicBot = {
         version: "0.0.1",
         status: false,
-        name: "basicBot-v2",
+        name: "Patrauklus Šokėjas",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/javascripto/basicBot-v2/master/basicBot-test.js",
+        scriptLink: "https://raw.githubusercontent.com/socketchecker/basicBot-v2/master/basicBot-test.js",
         cmdLink: "https://git.io/vofmh",
         chatLink: "https://rawgit.com/javascripto/basicBot-v2/master/lang/ltu.json",
         chat: null,
@@ -250,7 +250,7 @@
         settings: {
             botName: "basicBot-v2",
             language: "lithuanian",
-            chatLink: "https://rawgit.com/javascripto/basicBot-v2/master/lang/ltu.json",
+            chatLink: "https://raw.githubusercontent.com/socketchecker/basicBot-v2/master/lang/ltu.json",
             scriptLink: "https://rawgit.com/javascripto/basicBot-v2/master/basicBot-test.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
